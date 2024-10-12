@@ -12,9 +12,9 @@ begin
     readln(n);
     if N <= 0 then
     writeLn('Silakan masukkan bilangan bulat positif.')
-    else9
+    else
     begin
-    for i := 1 to N do
+    for i := 1 to n do
     begin
         if (i mod 2 = 0) then
         total := total + i;
